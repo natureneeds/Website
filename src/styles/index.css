@@ -1,0 +1,40 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--bg-page);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom scrollbar using tokens */
+  ::-webkit-scrollbar {
+    width: var(--space-8);
+    height: var(--space-8);
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--surface-alt);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--line);
+    border-radius: var(--radius-pill);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--forest);
+  }
+}

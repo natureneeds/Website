@@ -1,0 +1,24 @@
+{
+  "name": "Nature Needs — Future of Agri-Tech",
+  "short_name": "Nature Needs",
+  "description": "Premium futuristic operating system for agriculture, smart farming, and farmer profitability.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1F4D2B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/nature-needs-logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

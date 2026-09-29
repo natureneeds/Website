@@ -1,0 +1,38 @@
+:root {
+  /* ==========================================================================
+     DESIGN LOCK COLOR TOKENS
+     The ONLY colors allowed anywhere in the app.
+     Do NOT add hex/rgb/hsl values anywhere else.
+     ========================================================================== */
+  --bg-page: #FFFFFF;        /* page background on EVERY page */
+  --surface: #F4ECE4;        /* cream cards */
+  --surface-alt: #F9F6F2;    /* subtle sections, input backgrounds */
+  --ink: #0B0B0B;            /* black cards, primary text */
+  --forest: #1F4D2B;         /* badges, links, icons on light backgrounds */
+  --lime: #A3D14F;           /* the single accent: buttons, highlights, active states */
+  --lime-strong: #7FB32E;    /* accent hover/pressed */
+  --line: #E7E1D9;           /* borders and dividers */
+  --muted: #6B7280;          /* secondary text */
+  --white: #FFFFFF;          /* text on ink and forest surfaces */
+  --danger: #D64545;         /* errors only */
+  --warning: #E0A030;        /* warnings only */
+  --overlay: rgba(11, 11, 11, 0.45); /* dark scrim over hero photos only */
+
+  /* Radius tokens */
+  --radius-card: 28px;
+  --radius-input: 16px;
+  --radius-pill: 9999px;
+
+  /* Spacing tokens */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  /* Typography */
+  --font-family: 'Outfit', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+}
